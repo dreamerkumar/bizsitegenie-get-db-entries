@@ -1,7 +1,7 @@
 {
   "name": "bizsitegenie-get-db-entries",
   "description": "Bizsitegenie module used to perform database operations for the builder UI and the yeoman generator.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
     "node": "0.10.x",
     "npm": "1.4.x"
