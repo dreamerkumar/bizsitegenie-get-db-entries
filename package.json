@@ -1,0 +1,32 @@
+{
+  "name": "bizsitegenie-get-db-entries",
+  "description": "Bizsitegenie module used to perform database operations for the builder UI and the yeoman generator.",
+  "version": "1.0.3",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "author": "Vishal Kumar",
+  "license": "MIT",
+  "homepage" : "http://www.bizsitegenie.com",
+  "repository" : {"type": "git", "url": "git://github.com/dreamerkumar/bizsitegenie-get-db-entries.git"},
+  "keywords" : ["bizsitegenie", "MEAN", "MEAN Stack", "Rapid Application Development", "Web Application Builder"],
+  "scripts": {
+    "start": "grunt",
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "bizsitegenie-models": "^1.0.0",
+    "async": "~0.9.0",
+    "aws-sdk": "^2.2.33",
+    "bizsitegenie-models": "^1.0.0",
+    "chalk": "~0.5",
+    "csv": "^0.4.6",
+    "glob": "~4.0.5",
+    "grunt-cli": "~0.1.13",
+    "lodash": "~2.4.1",
+    "mongoose": "~3.8.8",
+    "mongoose-integer": "^0.1.1",
+    "q": "^1.4.1"
+  }
+}
