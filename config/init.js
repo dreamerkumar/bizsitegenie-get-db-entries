@@ -20,8 +20,9 @@ module.exports = function() {
 		var pathToThisFolderArray = pathToThisFolderWithForwardSlashes.split('/');
 
 		pathToThisFolderArray.pop();	
+		pathToThisFolderArray.pop();
 		var parentPath = pathToThisFolderArray.join('/');
-		 return parentPath + '/node_modules/bizsitegenie-models/**/*.js';
+		return parentPath + '/bizsitegenie-models/**/*.js';
 	}
 
 	/**
